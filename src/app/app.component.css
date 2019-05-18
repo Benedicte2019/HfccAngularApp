@@ -1,0 +1,123 @@
+.my-header-wrapper{
+  height: 360px;
+  width: 100%;
+}
+
+.my-header-backgroud-img{
+  height: 100%;
+  width: 100%;
+  background: #CC33DD;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+position: relative;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+.my-header-foreground{
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.my-inputs-wrapper{
+  width: 80%;
+  margin-left: 10;
+  margin-right: 10;
+  height: auto;
+  display: inline-block;
+}
+
+.my-task-input{
+  width: 70%;
+  height: 58px;
+  background: rgba(30, 50, 225, 0.06);
+border: 3px solid #1E32E1;
+box-sizing: border-box;
+}
+
+.my-button{
+  height: 58px;
+  width: 20%;
+  margin-left: 10%;
+
+  background: #1E32E1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 38px;
+color: white;
+}
+
+.my-task-wrapper{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+
+.my-tsk-display-wrapper{
+  width: 100%;
+  padding: 8px;
+  height: auto;
+}
+
+
+.my-task-display-text-wrapper{
+width: 85%;
+height: 84px;
+background: rgba(30, 50, 225, 0.06);
+border-radius: 8px;
+}
+
+.my-task-title{
+display: block;
+padding-top: 10px;
+padding-left: 8px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+
+border-radius: 60px;
+}
+
+.my-task-date{
+  display: block;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: rgba(0, 0, 0, 0.53);
+
+border-radius: 60px;
+}
+
+.my-task-button-delete{
+  width: 10%;
+  padding: 5%;
+height: 0px;
+border: 8px solid #1E32E1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 60px;
+}
