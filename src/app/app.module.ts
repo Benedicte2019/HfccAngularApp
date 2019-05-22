@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { TodoHeaderComponent } from './todo-header/todo-header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TodoHeaderComponent
   ],
   imports: [
     BrowserModule
